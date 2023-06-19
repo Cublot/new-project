@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Melodify</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <header>
+        <div class="menu-side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i></i>Playlist</h4>
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i></i>Last Played</h4>
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i></i>Recommended</h4>
+            </div>
+            <div class="menu-song">
+                <li class="song-item">
+                    <span>01</span>
+                    <img src="./assets/images/india2.jpg" alt="india 2">
+                    <h5>
+                        India 2
+                        <div class="subtitle">Lil Durk</div>
+                        <i class="bi playlistplay bi-play-circle-fill" id="1"></i>
+                    </h5>
+                </li>
+                <li class="song-item">
+                    <span>02</span>
+                    <img src="./assets/images/india2.jpg" alt="india 2">
+                    <h5>
+                        India 2
+                        <div class="subtitle">Lil Durk</div>
+                        <i class="bi playlistplay bi-play-circle-fill" id="2"></i>
+                    </h5>
+                </li>
+                <li class="song-item">
+                    <span>03</span>
+                    <img src="./assets/images/india2.jpg" alt="india 2">
+                    <h5>
+                        India 2
+                        <div class="subtitle">Lil Durk</div>
+                        <i class="bi playlistplay bi-play-circle-fill" id="3"></i>
+                    </h5>
+                </li>
+                <li class="song-item">
+                    <span>04</span>
+                    <img src="./assets/images/india2.jpg" alt="india 2">
+                    <h5>
+                        India 2
+                        <div class="subtitle">Lil Durk</div>
+                        <i class="bi playlistplay bi-play-circle-fill" id="4"></i>
+                    </h5>
+                </li>
+                <li class="song-item">
+                    <span>05</span>
+                    <img src="./assets/images/india2.jpg" alt="india 2">
+                    <h5>
+                        India 2
+                        <div class="subtitle">Lil Durk</div>
+                        <i class="bi playlistplay bi-play-circle-fill" id="5"></i>
+                    </h5>
+                </li>
+                <li class="song-item">
+                    <span>06</span>
+                    <img src="./assets/images/india2.jpg" alt="india 2">
+                    <h5>
+                        India 2
+                        <div class="subtitle">Lil Durk</div>
+                        <i class="bi playlistplay bi-play-circle-fill" id="6"></i>
+                    </h5>
+                </li>
+            </div>
+        </div>
+
+        <div class="song-side">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>My Libary</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="search music....">
+                </div>
+                <div class="user">
+                    <img src="./assets/images/6.jpg" alt="user" title="Melodify">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Lil Durk - Pelle Coat</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Laborum delectus facere sed blanditiis du
+                </p>
+                <div class="buttons">
+                    <button>Play</button>
+                    <button>Follow Artist</button>
+                </div>
+                <div class="popular-song">
+                    <div class="h4">
+                        <h4>Trending songs</h4>
+                        <div class="btn-s">
+                            <i class="bi bi-arrow-left-short"></i>
+                            <i class="bi bi-arrow-right-short"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="master-play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="./assets/images/india2.jpg" alt="All My Life">
+            <h5>India 2 <br>
+                <div class="subtitle">Lil Durk</div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill"></i>
+                <i class="bi bi-play-fill"></i>
+                <i class="bi bi-skip-end-fill"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:00</span>
+
+            <div class="vol">
+                <i class="bi bi-volume-down-fill"></i>
+                <input type="range" id="vol" min="0" value="30" max="100">
+                <div class="vol-bar"></div>
+                <div class="dot" id="vol-dot"></div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
