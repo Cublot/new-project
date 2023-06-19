@@ -502,3 +502,8 @@ header .song-side .content .buttons button:nth-child(2):hover{
     background: none;
     color: #fff;
 }
+header .song-side .content .buttons button:nth-child(2):hover{
+    border: 2px solid #36e2ec;
+    background: none;
+    color: #fff;
+}
